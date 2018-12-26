@@ -1,0 +1,77 @@
+
+.navbar-brand img {
+  width: 25%;
+  height: auto;
+}
+
+
+section.contac {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+  .contenido_contacto {
+    display: flex;
+    justify-content: center; }
+
+    .contenido_contacto .formulario {
+      width: 85%;
+      padding: 40px; }
+
+      .contenido_contacto .formulario form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 10px 0;
+        padding: 5px; }
+
+        .contenido_contacto .formulario form input {
+          width: 50%;
+          margin-bottom: 20px;
+          text-align: left; }
+
+          .contenido_contacto .formulario form input,
+          .contenido_contacto .formulario form textarea {
+            border: 2px solid rgba(#719aaa, 0.87);
+            border-top: hidden;
+            border-left: hidden;
+            border-right: hidden;
+            resize: none;
+            padding: 15px 25px;
+            margin: 5px;
+            font-size: 1.0em;
+            text-align: left; }
+
+            .contenido_contacto .formulario form input.este_no,
+            .contenido_contacto .formulario form textarea {
+              width: 100%; }
+
+              .contenido_contacto .formulario form input[type="submit"] {
+                /* 9d99d8 */
+                border: none;
+                border-radius: 50px;
+                border-width: 0;
+                border-style: solid;
+                cursor: pointer;
+                user-select: none;
+                white-space: pre;
+                transition: all 0.2s ease-in-out;
+                color: white;
+                font-size: 1em;
+                font-weight: 600;
+                margin-top: 15px;
+                width: auto;
+                padding: auto;
+                padding-left: 30px;
+                padding-right: 30px; }
+
+                .contenido_contacto .formulario form input[type="submit"]:hover {
+                  background: white;
+                  color: black;
+                  box-shadow: inset 0 0 0 1px #3a7999; }
+
+                  #send {
+                    margin-top: 25px;
+                  }
