@@ -1,4 +1,201 @@
-.navbar-brand img {
-  width: 25%;
-  height: auto;
+// .navbar-brand img {
+//   width: 25%;
+//   height: auto;
+// }
+
+// *** Liñita
+
+$verde: #81c56c;
+
+hr {
+  max-width: 20vw;
+  border-width: 2px;
+  border-color: $verde;
+  border-radius: 1px;
+}
+
+//*********************** Header
+
+header {
+  .container {
+    hr,
+    ion-icon {
+      font-size: 5.0em;
+      color: white !important;
+    }
+
+    h1 {
+      font-size: 4.0em;
+    }
+
+    p {
+      font-size: 1.7em;
+      color: white;
+    }
+  }
+}
+
+// ********************* Quienes somos
+
+#about,
+.bg-primary {
+  background-color: rgb(41, 41, 41) !important;
+
+  a {
+    background-color: #a7ba15;
+  }
+}
+
+// ********************* Contacto
+
+section.contacto {
+  .mb-5 {
+    padding: 0;
+    margin-bottom: 0 !important;
+  }
+
+  padding-top: 8vh;
+  padding-bottom: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .mx-auto {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.contenido_contacto {
+  display: flex;
+  justify-content: center;
+}
+
+.contenido_contacto .formulario {
+  width: 85%;
+  padding: 30px;
+}
+
+.contenido_contacto .formulario form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.contenido_contacto .formulario form input {
+  width: 50%;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.contenido_contacto .formulario form input,
+.contenido_contacto .formulario form textarea {
+  border: 2px solid $verde;
+  border-radius: 10px;
+
+  resize: none;
+  padding: 10px 10px;
+  margin: 3px;
+  font-size: 1.0em;
+  text-align: left;
+}
+
+.contenido_contacto .formulario form input.este_no,
+.contenido_contacto .formulario form textarea {
+  width: 100%;
+}
+
+input[type="submit"] {
+  border: 0px solid black !important;
+  margin-top: 25px;
+  background: black;
+  border-radius: 50px;
+  border-width: 0;
+  border-style: solid;
+  cursor: pointer;
+  user-select: none;
+  white-space: pre;
+  transition: all 0.2s ease-in-out;
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 15px;
+  width: auto;
+  padding: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+
+input[type="submit"]:hover {
+  background: $verde;
+}
+
+// ********************* Seguinos en redes
+
+#row-huija {
+  justify-content: center;
+  align-items: center;
+
+  div {
+    margin: 10px;
+    cursor: pointer;
+
+    .text-primary {
+      color: $verde !important;
+      font-size: 6.2em;
+    }
+
+    .mb-3 {
+      color: grey;
+    }
+
+    a {
+      padding: 5px;
+    }
+
+    a:hover {
+      color: $verde;
+    }
+  }
+}
+
+// *********************** Contacto Bootstrap
+
+#contact {
+  background-color: rgb(240, 240, 238) !important;
+  padding: 10px 0;
+
+  .container {
+    display: flex;
+    //  flex-wrap: nowrap;
+    //  flex-direction: row;
+    margin: 0 50px;
+    padding: 0;
+
+    #touch {
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      margin: 0 !important;
+
+      div {
+        align-items: center;
+        justify-content: center;
+        margin: 0 50px;
+        padding: 0;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.portfolio-box
+.portfolio-box-caption {
+  background: rgba(184, 202, 23, 0.9);
 }

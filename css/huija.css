@@ -1,77 +1,164 @@
-
-.navbar-brand img {
-  width: 25%;
-  height: auto;
+hr {
+  max-width: 20vw;
+  border-width: 2px;
+  border-color: #81c56c;
+  border-radius: 1px;
 }
 
+header .container hr,
+header .container ion-icon {
+  font-size: 5em;
+  color: white !important;
+}
+header .container h1 {
+  font-size: 4em;
+}
+header .container p {
+  font-size: 1.7em;
+  color: white;
+}
 
-section.contac {
+#about,
+.bg-primary {
+  background-color: #292929 !important;
+}
+#about a,
+.bg-primary a {
+  background-color: #a7ba15;
+}
+
+section.contacto {
+  padding-top: 8vh;
+  padding-bottom: 0;
+  margin: 0;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
+section.contacto .mb-5 {
+  padding: 0;
+  margin-bottom: 0 !important;
+}
+section.contacto .mx-auto {
+  padding: 0;
+  margin: 0;
+}
 
-  .contenido_contacto {
-    display: flex;
-    justify-content: center; }
+.contenido_contacto {
+  display: flex;
+  justify-content: center;
+}
 
-    .contenido_contacto .formulario {
-      width: 85%;
-      padding: 40px; }
+.contenido_contacto .formulario {
+  width: 85%;
+  padding: 30px;
+}
 
-      .contenido_contacto .formulario form {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin: 10px 0;
-        padding: 5px; }
+.contenido_contacto .formulario form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 5px;
+}
 
-        .contenido_contacto .formulario form input {
-          width: 50%;
-          margin-bottom: 20px;
-          text-align: left; }
+.contenido_contacto .formulario form input {
+  width: 50%;
+  margin-bottom: 20px;
+  text-align: left;
+}
 
-          .contenido_contacto .formulario form input,
-          .contenido_contacto .formulario form textarea {
-            border: 2px solid rgba(#719aaa, 0.87);
-            border-top: hidden;
-            border-left: hidden;
-            border-right: hidden;
-            resize: none;
-            padding: 15px 25px;
-            margin: 5px;
-            font-size: 1.0em;
-            text-align: left; }
+.contenido_contacto .formulario form input,
+.contenido_contacto .formulario form textarea {
+  border: 2px solid #81c56c;
+  border-radius: 10px;
+  resize: none;
+  padding: 10px 10px;
+  margin: 3px;
+  font-size: 1em;
+  text-align: left;
+}
 
-            .contenido_contacto .formulario form input.este_no,
-            .contenido_contacto .formulario form textarea {
-              width: 100%; }
+.contenido_contacto .formulario form input.este_no,
+.contenido_contacto .formulario form textarea {
+  width: 100%;
+}
 
-              .contenido_contacto .formulario form input[type="submit"] {
-                /* 9d99d8 */
-                border: none;
-                border-radius: 50px;
-                border-width: 0;
-                border-style: solid;
-                cursor: pointer;
-                user-select: none;
-                white-space: pre;
-                transition: all 0.2s ease-in-out;
-                color: white;
-                font-size: 1em;
-                font-weight: 600;
-                margin-top: 15px;
-                width: auto;
-                padding: auto;
-                padding-left: 30px;
-                padding-right: 30px; }
+input[type=submit] {
+  border: 0px solid black !important;
+  margin-top: 25px;
+  background: black;
+  border-radius: 50px;
+  border-width: 0;
+  border-style: solid;
+  cursor: pointer;
+  user-select: none;
+  white-space: pre;
+  transition: all 0.2s ease-in-out;
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 15px;
+  width: auto;
+  padding: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
 
-                .contenido_contacto .formulario form input[type="submit"]:hover {
-                  background: white;
-                  color: black;
-                  box-shadow: inset 0 0 0 1px #3a7999; }
+input[type=submit]:hover {
+  background: #81c56c;
+}
 
-                  #send {
-                    margin-top: 25px;
-                  }
+#row-huija {
+  justify-content: center;
+  align-items: center;
+}
+#row-huija div {
+  margin: 10px;
+  cursor: pointer;
+}
+#row-huija div .text-primary {
+  color: #81c56c !important;
+  font-size: 6.2em;
+}
+#row-huija div .mb-3 {
+  color: grey;
+}
+#row-huija div a {
+  padding: 5px;
+}
+#row-huija div a:hover {
+  color: #81c56c;
+}
+
+#contact {
+  background-color: #f0f0ee !important;
+  padding: 10px 0;
+}
+#contact .container {
+  display: flex;
+  margin: 0 50px;
+  padding: 0;
+}
+#contact .container #touch {
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0 !important;
+}
+#contact .container #touch div {
+  align-items: center;
+  justify-content: center;
+  margin: 0 50px;
+  padding: 0;
+  width: 100%;
+}
+
+.portfolio-box .portfolio-box-caption {
+  background: rgba(184, 202, 23, 0.9);
+}
+
+/*# sourceMappingURL=huija.css.map */
