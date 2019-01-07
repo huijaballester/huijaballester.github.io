@@ -1,7 +1,10 @@
-// .navbar-brand img {
-//   width: 25%;
-//   height: auto;
-// }
+.navbar {
+  padding: 0.6rem 2rem !important;
+}
+
+.nav-item {
+  margin: 0 1vw;
+}
 
 // *** Liñita
 
@@ -26,11 +29,14 @@ header {
 
     h1 {
       font-size: 4.0em;
+      text-shadow: 1px 1px 2px black;
     }
 
     p {
-      font-size: 1.7em;
+      font-size: 2.1em;
       color: white;
+      text-shadow: 1px 1px 2px black;
+      font-weight: 400;
     }
   }
 }
@@ -138,12 +144,19 @@ input[type="submit"]:hover {
 
 // ********************* Seguinos en redes
 
+#services {
+  .container {
+  }
+}
+
 #row-huija {
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 0;
 
   div {
-    margin: 10px;
+    margin: 10px 0;
     cursor: pointer;
 
     .text-primary {
@@ -165,31 +178,71 @@ input[type="submit"]:hover {
   }
 }
 
+#chevron {
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  div {
+    a {
+      img {
+        text-shadow: 1px 1px 1px black;
+        width: 40px;
+      }
+    }
+  }
+}
+
 // *********************** Contacto Bootstrap
 
 #contact {
   background-color: rgb(240, 240, 238) !important;
-  padding: 10px 0;
+  padding: 0px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 
-  .container {
+  #mapa {
     display: flex;
-    //  flex-wrap: nowrap;
-    //  flex-direction: row;
-    margin: 0 50px;
-    padding: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh 2vw;
+    margin: 0 !important;
+    width: 45%;
+  }
 
-    #touch {
+  #touch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh 0;
+    margin: 0 !important;
+    width: 50%;
+
+    .row {
       align-items: center;
       justify-content: center;
+      width: 100%;
+      margin: 0px !important;
       padding: 0;
-      margin: 0 !important;
 
-      div {
-        align-items: center;
+      .icons {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
         justify-content: center;
-        margin: 0 50px;
+        text-align: center;
         padding: 0;
+        margin: 0;
         width: 100%;
+
+        .left {
+          margin-right: 3vw;
+        }
+
+        .right {
+          margin-left: 3vw;
+        }
       }
     }
   }

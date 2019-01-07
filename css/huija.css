@@ -1,3 +1,11 @@
+.navbar {
+  padding: 0.6rem 2rem !important;
+}
+
+.nav-item {
+  margin: 0 1vw;
+}
+
 hr {
   max-width: 20vw;
   border-width: 2px;
@@ -12,10 +20,13 @@ header .container ion-icon {
 }
 header .container h1 {
   font-size: 4em;
+  text-shadow: 1px 1px 2px black;
 }
 header .container p {
-  font-size: 1.7em;
+  font-size: 2.1em;
   color: white;
+  text-shadow: 1px 1px 2px black;
+  font-weight: 400;
 }
 
 #about,
@@ -115,9 +126,11 @@ input[type=submit]:hover {
 #row-huija {
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 #row-huija div {
-  margin: 10px;
+  margin: 10px 0;
   cursor: pointer;
 }
 #row-huija div .text-primary {
@@ -134,27 +147,62 @@ input[type=submit]:hover {
   color: #81c56c;
 }
 
+#chevron {
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+#chevron div a img {
+  text-shadow: 1px 1px 1px black;
+  width: 40px;
+}
+
 #contact {
   background-color: #f0f0ee !important;
-  padding: 10px 0;
-}
-#contact .container {
+  padding: 0px 0;
   display: flex;
-  margin: 0 50px;
-  padding: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
-#contact .container #touch {
+#contact #mapa {
+  display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0;
+  padding: 2vh 2vw;
   margin: 0 !important;
+  width: 45%;
 }
-#contact .container #touch div {
+#contact #touch {
+  display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 50px;
-  padding: 0;
+  padding: 2vh 0;
+  margin: 0 !important;
+  width: 50%;
+}
+#contact #touch .row {
+  align-items: center;
+  justify-content: center;
   width: 100%;
+  margin: 0px !important;
+  padding: 0;
+}
+#contact #touch .row .icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+#contact #touch .row .icons .left {
+  margin-right: 3vw;
+}
+#contact #touch .row .icons .right {
+  margin-left: 3vw;
 }
 
 .portfolio-box .portfolio-box-caption {

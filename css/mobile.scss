@@ -1,0 +1,81 @@
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+#contacto {
+  main {
+    div {
+      width: 100%;
+      padding: 15px 3vw;
+      form {
+        padding: 0;
+      }
+    }
+  }
+}
+
+// *************************** Footer
+
+#contact {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  padding: 0;
+  margin: 0;
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+#contact {
+  flex-direction: column;
+  justify-content: center;
+
+  #mapa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vw;
+    width: 100%;
+  }
+
+  #touch {
+    padding: 2vh 0;
+    width: 100%;
+
+    .row {
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      margin: 0px !important;
+      padding: 0;
+
+      .icons {
+        flex-direction: column;
+        align-items: center;
+
+        .left {
+          margin-top: 5vh;
+          margin-right: 0;
+        }
+
+        .right {
+          margin-top: 5vh;
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

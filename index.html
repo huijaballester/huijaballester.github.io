@@ -5,10 +5,15 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
   <meta name="description" content="">
   <meta name="author" content="">
 
   <title>Huija! Villa Ballester</title>
+
+  <link rel="icon" href="img/favicon.png" type="image/x-icon">
+
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,6 +31,8 @@
   <!-- Custom styles for this template -->
   <link href="css/creative.min.css" rel="stylesheet">
   <link href="css/huija.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/mobile.css" media="(max-width: 768px)">
+
 
 </head>
 
@@ -68,7 +75,8 @@
           <hr>
         </div>
         <div class="col-lg-8 mx-auto">
-          <p class="text-faded mb-5">Enterate de todo en esta web y pedinos más info sin compromiso y en el momento que
+          <p class="text-faded mb-5">Enterate de todo, mirá nuestras fotos y pedinos más info sin compromiso y en el
+            momento que
             quieras</p>
           <a href="#about" class="js-scroll-trigger">
             <ion-icon name="ios-arrow-down"></ion-icon>
@@ -84,7 +92,8 @@
         <div class="col-lg-8 mx-auto text-center">
           <h2 class="section-heading text-white">¿Quiénes somos? ¿Qué hacemos?</h2>
           <hr class="light my-4">
-          <p class="text-faded mb-4">Somos un salón de fiestas multieventos ubicado en la localidad de Villa Ballester
+          <p class="text-faded mb-4">¡Somos Huija! Un salón de fiestas multieventos ubicado en la localidad de Villa
+            Ballester
             y nos dedicamos a hacer de una reunión, una comunión, una fiesta o un cumpleaños, un evento inolvidable.
 
           </p>
@@ -108,7 +117,7 @@
 
         <div class="col-lg-3 col-md-6 text-center">
           <div class="service-box mt-5 mx-auto">
-            <a href="#">
+            <a href="https://www.facebook.com/huijaballester" target="new window">
               <ion-icon class="fas fa-4x text-primary mb-3 sr-icon-1" name="logo-facebook"></ion-icon>
               <h3 class="mb-3">Facebook</h3>
             </a>
@@ -117,7 +126,7 @@
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="service-box mt-5 mx-auto">
-            <a href="#">
+            <a href="https://www.instagram.com/huijaballester" target="new window">
               <ion-icon class="fas fa-4x text-primary mb-3 sr-icon-1" name="logo-instagram"></ion-icon>
               <h3 class="mb-3">Instagram</h3>
             </a>
@@ -126,7 +135,7 @@
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="service-box mt-5 mx-auto">
-            <a href="#">
+            <a href="#contacto" class="js-scroll-trigger">
               <ion-icon class="fas fa-4x text-primary mb-3 sr-icon-1" name="mail"></ion-icon>
               <h3 class="mb-3">Envianos un mail</h3>
             </a>
@@ -134,11 +143,18 @@
           </div>
         </div>
       </div>
-      <div class="row" style="width: 100%; justify-content: center; display: flex;">
-        <a href=" #portfolio" class="js-scroll-trigger">
-          <ion-icon name="ios-arrow-down" style="font-size: 4.0em;" color="grey"></ion-icon>
-        </a>
+
+      <div class="row" id="chevron">
+        <div class="col-lg-3 col-md-6 text-center">
+          <a href=" #portfolio" class="js-scroll-trigger">
+            <img src="./img/chevron-down.png" alt="">
+          </a>
+        </div>
       </div>
+
+    </div>
+
+
 
   </section>
 
@@ -258,16 +274,12 @@
 
       <main class="contenido_contacto">
         <div class="formulario">
-          <form>
-            <!-- action="envio.php" method="post" -->
-            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
-            <!--
-              -->
+          <form action="https://formspree.io/huijaballester@gmail.com" method="post">
+            <input type="text" name="name" id="nombre" placeholder="Nombre">
             <input type="email" name="email" id="email" placeholder="Mail">
             <input type="text" name="asunto" id="asunto" placeholder="Asunto">
-            <textarea cols="7" rows="7" maxlength="500" id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>
+            <textarea cols="7" rows="7" maxlength="500" id="mensaje" name="message" placeholder="Mensaje"></textarea>
             <input type="submit" id="send" value="Enviar">
-            <!-- input type="submit" value="Enviar"  -->
           </form>
         </div>
       </main>
@@ -276,38 +288,36 @@
   </section>
 
   <section id="contact">
-    <div class="container">
+
+    <div class="row" id="mapa">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13144.616203266882!2d-58.55660660321044!3d-34.549654737209096!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7551f6be933%3A0xcf972d73986416a!2sAlvear+2446%2C+Villa+Ballester%2C+Buenos+Aires%2C+Argentina!5e0!3m2!1ses-419!2sus!4v1545857283101"
+        width="500" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+    <div id="touch" class="row">
 
       <div class="row">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13144.616203266882!2d-58.55660660321044!3d-34.549654737209096!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7551f6be933%3A0xcf972d73986416a!2sAlvear+2446%2C+Villa+Ballester%2C+Buenos+Aires%2C+Argentina!5e0!3m2!1ses-419!2sus!4v1545857283101"
-          width="500" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
 
-      <div id="touch" class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-heading">Visitanos</h2>
+          <p>Nos encontramos en <strong>Alvear 2446</strong></p>
+          <p>Lunes a Viernes de 11 a 13.30 hs. | 17 a 20 hs.</p>
+          <p>Sábados de 10.30 a 13 hs.</p>
+        </div>
 
-        <div class="row">
+        <div class="icons">
 
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Visitanos</h2>
-            <p>Nos encontramos en <strong>Alvear 2446</strong></p>
-            <p>Lunes a Viernes de 11 a 13.30 hs. | 17 a 20 hs.</p>
-            <p>Sábados de 10.30 a 13 hs.</p>
+          <div class="col-lg-4 text-center left">
+            <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
+            <p>4768-0100</p>
+            <p>11-3481-9858</p>
           </div>
 
-          <div class="container" id="touch">
-
-            <div class="col-lg-4 ml-auto text-center">
-              <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
-              <p>4768-0100</p>
-              <p>11-3481-9858</p>
-            </div>
-
-            <div class="col-lg-4 mr-auto text-center">
-              <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
-              <p>huijaballester@gmail.com</p>
-            </div>
-
+          <div class="col-lg-4 text-center right">
+            <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
+            <p>huijaballester@gmail.com</p>
           </div>
+
         </div>
 
 

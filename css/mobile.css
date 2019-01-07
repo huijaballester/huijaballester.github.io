@@ -1,0 +1,70 @@
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+#contacto main div {
+  width: 100%;
+  padding: 15px 3vw;
+}
+#contacto main div form {
+  padding: 0;
+}
+
+#contact {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  padding: 0;
+  margin: 0;
+}
+#contact .container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+#contact {
+  flex-direction: column;
+  justify-content: center;
+}
+#contact #mapa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3vw;
+  width: 100%;
+}
+#contact #touch {
+  padding: 2vh 0;
+  width: 100%;
+}
+#contact #touch .row {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0px !important;
+  padding: 0;
+}
+#contact #touch .row .icons {
+  flex-direction: column;
+  align-items: center;
+}
+#contact #touch .row .icons .left {
+  margin-top: 5vh;
+  margin-right: 0;
+}
+#contact #touch .row .icons .right {
+  margin-top: 5vh;
+  margin-left: 0;
+}
+
+/*# sourceMappingURL=mobile.css.map */
