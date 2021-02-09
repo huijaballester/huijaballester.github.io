@@ -4,6 +4,7 @@
 
 .nav-item {
   margin: 0 1vw;
+  cursor: pointer;
 }
 
 hr {
