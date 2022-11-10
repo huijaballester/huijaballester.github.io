@@ -1,3 +1,7 @@
+.dispnon {
+  display: none;
+}
+
 .navbar {
   padding: 0.6rem 2rem !important;
 }
@@ -24,12 +28,12 @@ header {
   .container {
     hr,
     ion-icon {
-      font-size: 5.0em;
+      font-size: 5em;
       color: white !important;
     }
 
     h1 {
-      font-size: 4.0em;
+      font-size: 4em;
       text-shadow: 1px 1px 2px black;
     }
 
@@ -108,7 +112,7 @@ section.contacto {
   resize: none;
   padding: 10px 10px;
   margin: 3px;
-  font-size: 1.0em;
+  font-size: 1em;
   text-align: left;
 }
 
@@ -249,7 +253,6 @@ input[type="submit"]:hover {
   }
 }
 
-.portfolio-box
-.portfolio-box-caption {
+.portfolio-box .portfolio-box-caption {
   background: rgba(184, 202, 23, 0.9);
 }
