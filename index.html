@@ -291,13 +291,13 @@
 
       <main class="contenido_contacto">
         <div class="formulario">
-          <form action="https://martingoiriz.com.ar/api/mg/sendHuijaEmail.php" target="dummyframe" id="contactForm" method="post">
+          <div>
             <input type="text" name="name" id="name" placeholder="Nombre">
             <input type="text" name="email" id="email" placeholder="Email o WhatsApp">
             <textarea cols="2" rows="2" maxlength="500" class="dispnon" name="message_honey" id="message_honey" type="text"></textarea>
             <textarea cols="7" rows="7" maxlength="500" id="message" name="message" placeholder="Mensaje"></textarea>
-            <input type="submit" onClick='alert("Tu mensaje fue enviado! Nos pondremos en contacto a la brevedad. Muchas gracias");setTimeout(() => ( document.querySelectorAll("#name, #email, #message").forEach(i => i.value = "")), 600);' id="send" value="Enviar">
-          </form>
+            <input type="button" onClick='sendEmail()' id="send" value="Enviar">
+          </div>
         </div>
       </main>
     </div>
@@ -358,6 +358,7 @@
   <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
   <!-- Custom scripts for this template -->
+  <script src="js/contact.js"></script>
   <script src="js/creative.min.js"></script>
   <script src="https://unpkg.com/ionicons@4.5.0/dist/ionicons.js"></script>
 

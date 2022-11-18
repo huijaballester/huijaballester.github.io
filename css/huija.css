@@ -70,7 +70,7 @@ section.contacto .mx-auto {
   padding: 30px;
 }
 
-.contenido_contacto .formulario form {
+.contenido_contacto .formulario div {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -78,14 +78,14 @@ section.contacto .mx-auto {
   padding: 5px;
 }
 
-.contenido_contacto .formulario form input {
+.contenido_contacto .formulario div input {
   width: 50%;
   margin-bottom: 20px;
   text-align: left;
 }
 
-.contenido_contacto .formulario form input,
-.contenido_contacto .formulario form textarea {
+.contenido_contacto .formulario div input,
+.contenido_contacto .formulario div textarea {
   border: 2px solid #81c56c;
   border-radius: 10px;
   resize: none;
@@ -95,12 +95,12 @@ section.contacto .mx-auto {
   text-align: left;
 }
 
-.contenido_contacto .formulario form input.este_no,
-.contenido_contacto .formulario form textarea {
+.contenido_contacto .formulario div input.este_no,
+.contenido_contacto .formulario div textarea {
   width: 100%;
 }
 
-input[type=submit] {
+input[type=button] {
   border: 0px solid black !important;
   margin-top: 25px;
   background: black;
@@ -122,7 +122,7 @@ input[type=submit] {
   text-align: center;
 }
 
-input[type=submit]:hover {
+input[type=button]:hover {
   background: #81c56c;
 }
 
